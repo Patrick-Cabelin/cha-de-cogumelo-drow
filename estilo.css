@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+:root{
+    --corPrincipal:#3F5B73;
+    --corDoConteudo:#445D7D;
+    --fundo:#f2f2f2;
+    --corDeComplemento:#8A96A6;
+}
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--fundo);
+    color:var(--corDoConteudo);
+}
+
+main{
+    text-indent: 10px;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--corPrincipal);
+}
+
+
+.apresenta{
+
+    margin: auto;
+    width: 700px;
+
+}
+.ingredientes > span{
+    position: relative;
+    left: 330px;
+    background-color: #4e8dbf;
+    color: #022542;
+}
+
+.ingredientes{
+    margin: auto;
+    width: 700px;
+}
+.ingredientes > ul {
+    list-style-type: '\1F344\0020';
+}
+.preparo{
+
+    margin: auto;
+    width: 700px;
+
+}
+
+aside{
+    margin: auto;
+    width: 700px;
+    background: #31537e;
+    color: #8cedd2;
+}
+aside span{
+    margin-left: 280px;
+    font-weight: bold
+}
+.cogumelo img{
+    width: 441px;
+    margin:auto;
+    margin-left: 440px;
+}
+footer{
+    background-color: var(--corDeComplemento);
+    text-align: center;
+    font-size: 1.1em;
+    color:#002d6e;
+    height: 26px;
+    width: 205px;
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
